@@ -1,8 +1,11 @@
+<div align="center">
+  
 # 👋 Hello, I'm Sejal Nimkar!  
+
 🌟 **Data Science Master's Student at Indiana University Bloomington**  
 💻 **Aspiring Machine Learning Engineer and Data Scientist**  
 
-<div align="center">
+
 ---
 
 ## 🚀 About Me  
