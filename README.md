@@ -26,26 +26,20 @@
 
 ## Featured projects
 
-| Project | What it does | Built with |
+| Project | Highlights | Stack |
 |---|---|---|
-| [**NYC Taxi Data Pipeline**](https://github.com/sejalnimkar/NYC-Taxi-Dynamic-Surge-Predictor) | Batch pipeline over 40M NYC ride records with idempotent monthly loads, 26 dbt data tests and CI, orchestrated in Airflow. Forecasts zone demand 1–3 hours ahead, 26–36% better than the best baseline. Verified end to end on Snowflake. | PySpark, Snowflake, dbt, Airflow, Docker, MLflow, LightGBM |
-| [**Retail Sales Forecasting**](https://github.com/sejalnimkar/retail-sales-ml-pipeline) | Forecasts monthly sales per product from 352K Montgomery County records, with time-based evaluation, 30 tests and CI. Diagnosed a six-year gap and a 42% drop in demand in the source data and redesigned the model around it. | Python, scikit-learn, XGBoost, Streamlit, GitHub Actions |
-| [**US SVOD Market Analysis**](https://public.tableau.com/views/SubscriberVideoonDemandAnalysis/Dashboard3) | 114 US streaming services across 8 market KPIs: 15.3% subscriber growth while top-3 market share fell from 49.7% to 43.6%. | Python, Pandas, Tableau |
-| [**Formula 1 Racing Analysis**](https://public.tableau.com/app/profile/sejalnimkar/viz/Formula1RacingAnalysis/Dashboard1) | Seven-page dashboard of the 2023–24 seasons built from OpenF1 API data: strategy, pit stops, qualifying and driver performance. | Python, REST API, Tableau |
+| [**NYC Taxi Data Pipeline**](https://github.com/sejalnimkar/NYC-Taxi-Dynamic-Surge-Predictor) | 40M-ride batch pipeline with idempotent loads, 26 dbt tests and CI; forecasts demand 1–3 hours ahead, 26–36% better than the best baseline | PySpark, Snowflake, dbt, Airflow |
+| [**Retail Sales Forecasting**](https://github.com/sejalnimkar/retail-sales-ml-pipeline) | Product-level forecasts from 352K county records, with time-based evaluation, tests and CI | Python, XGBoost, GitHub Actions |
+| [**US SVOD Market Analysis**](https://public.tableau.com/views/SubscriberVideoonDemandAnalysis/Dashboard3) | 114 streaming services, 8 KPIs: 15.3% subscriber growth as top-3 share fell to 43.6% | Python, Tableau |
+| [**Formula 1 Racing Analysis**](https://public.tableau.com/app/profile/sejalnimkar/viz/Formula1RacingAnalysis/Dashboard1) | Seven-page dashboard of the 2023–24 seasons built from OpenF1 API data | Python, Tableau |
 
 ---
 
-## Tools I've worked with
+## Tools I work with
 
-**Languages**
 <p align="left">
   <img src="https://img.shields.io/badge/Python-%233776AB.svg?style=flat&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/SQL-%23336791.svg?style=flat&logo=postgresql&logoColor=white" alt="SQL"/>
-  <img src="https://img.shields.io/badge/R-%23276DC3.svg?style=flat&logo=r&logoColor=white" alt="R"/>
-</p>
-
-**Data engineering**
-<p align="left">
   <img src="https://img.shields.io/badge/PySpark-%23E25A1C.svg?style=flat&logo=apachespark&logoColor=white" alt="PySpark"/>
   <img src="https://img.shields.io/badge/dbt-%23FF694B.svg?style=flat&logo=dbt&logoColor=white" alt="dbt"/>
   <img src="https://img.shields.io/badge/Apache_Airflow-%23017CEE.svg?style=flat&logo=apacheairflow&logoColor=white" alt="Apache Airflow"/>
@@ -55,11 +49,19 @@
   <img src="https://img.shields.io/badge/Docker-%232496ED.svg?style=flat&logo=docker&logoColor=white" alt="Docker"/>
   <img src="https://img.shields.io/badge/GitHub_Actions-%232088FF.svg?style=flat&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
   <img src="https://img.shields.io/badge/MLflow-%230194E2.svg?style=flat&logo=mlflow&logoColor=white" alt="MLflow"/>
-  <img src="https://img.shields.io/badge/pytest-%230A9EDC.svg?style=flat&logo=pytest&logoColor=white" alt="pytest"/>
+  <img src="https://img.shields.io/badge/Tableau-%23E97627.svg?style=flat&logo=tableau&logoColor=white" alt="Tableau"/>
+  <img src="https://img.shields.io/badge/Power_BI-%23F2C811.svg?style=flat" alt="Power BI"/>
+  <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikitlearn&logoColor=white" alt="scikit-learn"/>
+  <img src="https://img.shields.io/badge/LightGBM-%2302569B.svg?style=flat" alt="LightGBM"/>
 </p>
 
-**Databases and cloud**
+<details>
+<summary><b>More tools</b></summary>
+<br>
+
 <p align="left">
+  <img src="https://img.shields.io/badge/R-%23276DC3.svg?style=flat&logo=r&logoColor=white" alt="R"/>
+  <img src="https://img.shields.io/badge/pytest-%230A9EDC.svg?style=flat&logo=pytest&logoColor=white" alt="pytest"/>
   <img src="https://img.shields.io/badge/MySQL-%234479A1.svg?style=flat&logo=mysql&logoColor=white" alt="MySQL"/>
   <img src="https://img.shields.io/badge/PostgreSQL-%23336791.svg?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
   <img src="https://img.shields.io/badge/SQL_Server-%23CC2927.svg?style=flat" alt="SQL Server"/>
@@ -67,23 +69,11 @@
   <img src="https://img.shields.io/badge/Google_Cloud-%234285F4.svg?style=flat&logo=googlecloud&logoColor=white" alt="Google Cloud"/>
   <img src="https://img.shields.io/badge/Azure_(AZ--900)-%230078D4.svg?style=flat" alt="Microsoft Azure, AZ-900 certified"/>
   <img src="https://img.shields.io/badge/Amazon_S3-%23569A31.svg?style=flat&logo=amazons3&logoColor=white" alt="Amazon S3"/>
-</p>
-
-**Analytics and BI**
-<p align="left">
-  <img src="https://img.shields.io/badge/Tableau-%23E97627.svg?style=flat&logo=tableau&logoColor=white" alt="Tableau"/>
-  <img src="https://img.shields.io/badge/Power_BI-%23F2C811.svg?style=flat" alt="Power BI"/>
   <img src="https://img.shields.io/badge/Excel-%23217346.svg?style=flat" alt="Excel"/>
   <img src="https://img.shields.io/badge/Alteryx-%230078C0.svg?style=flat" alt="Alteryx"/>
   <img src="https://img.shields.io/badge/Pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white" alt="Pandas"/>
   <img src="https://img.shields.io/badge/NumPy-%23013243.svg?style=flat&logo=numpy&logoColor=white" alt="NumPy"/>
-</p>
-
-**Machine learning and AI**
-<p align="left">
-  <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikitlearn&logoColor=white" alt="scikit-learn"/>
   <img src="https://img.shields.io/badge/XGBoost-%23189FDD.svg?style=flat" alt="XGBoost"/>
-  <img src="https://img.shields.io/badge/LightGBM-%2302569B.svg?style=flat" alt="LightGBM"/>
   <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=pytorch&logoColor=white" alt="PyTorch"/>
   <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
   <img src="https://img.shields.io/badge/OpenCV-%235C3EE8.svg?style=flat&logo=opencv&logoColor=white" alt="OpenCV"/>
@@ -91,3 +81,5 @@
   <img src="https://img.shields.io/badge/Gemini_API-%238E75B2.svg?style=flat&logo=googlegemini&logoColor=white" alt="Gemini API"/>
   <img src="https://img.shields.io/badge/Streamlit-%23FF4B4B.svg?style=flat&logo=streamlit&logoColor=white" alt="Streamlit"/>
 </p>
+
+</details>
